@@ -1,4 +1,4 @@
-# QA Automation Assignment
+# QA Automation
 
 We have added two tests: the first task is API-Test.feature and the second is UI-Test.feature.
 - For the API-Test.feature, please visit https://reqres.in/. This should contain all the requirements.
