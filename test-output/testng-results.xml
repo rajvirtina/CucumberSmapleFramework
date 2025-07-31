@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="5" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-17T17:11:59 IST" name="Cucumber Test Suite" finished-at="2025-07-17T17:12:54 IST" duration-ms="54604">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerTest@367ffa75]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-07-17T17:11:59 IST" name="Cucumber Tests" finished-at="2025-07-17T17:12:54 IST" duration-ms="54604">
+      <class name="runner.runnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.runnerTest@367ffa75]" started-at="2025-07-17T17:11:59 IST" name="setUpClass" finished-at="2025-07-17T17:12:00 IST" duration-ms="792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c651286]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerTest@367ffa75]" started-at="2025-07-17T17:12:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T17:12:09 IST" duration-ms="8253" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Should see LIST USERS of all existing users"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.lang.Integer.intValue()" because the return value of "io.restassured.internal.common.path.ObjectConverter.convertObjectTo(Object, java.lang.Class)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "io.restassured.internal.common.path.ObjectConverter.convertObjectTo(Object, java.lang.Class)" is null
+at io.restassured.path.json.JsonPath.getInt(JsonPath.java:245)
+at pages.APIPage.getTotalUserCount(APIPage.java:66)
+at stepdefinitions.APIStepDefinition.iGetTheDefaultListofusers(APIStepDefinition.java:35)
+at ✽.I get the default list of users for on 1st page(file:///C:/Users/acer/Downloads/QumuQaTask/QumuQaTask/src/test/resources/features/API-Test.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerTest@367ffa75]" started-at="2025-07-17T17:12:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T17:12:11 IST" duration-ms="2776" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Should see SINGLE USER data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected 200 OK but got: 401 expected [200] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected 200 OK but got: 401 expected [200] but found [401]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1240)
+at stepdefinitions.APIStepDefinition.IShouldSeeFollowingUserData(APIStepDefinition.java:58)
+at ✽.I should see the following user data(file:///C:/Users/acer/Downloads/QumuQaTask/QumuQaTask/src/test/resources/features/API-Test.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerTest@367ffa75]" started-at="2025-07-17T17:12:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T17:12:14 IST" duration-ms="2243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Should see SINGLE USER NOT FOUND error code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerTest@367ffa75]" started-at="2025-07-17T17:12:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T17:12:16 IST" duration-ms="2521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["CREATE a user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerTest@367ffa75]" started-at="2025-07-17T17:12:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T17:12:18 IST" duration-ms="2132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["CREATE a user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerTest@367ffa75]" started-at="2025-07-17T17:12:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T17:12:21 IST" duration-ms="2392" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["LOGIN - SUCCESSFUL by a user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [401] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [401] but found [200]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1240)
+at org.testng.Assert.assertEquals(Assert.java:1274)
+at stepdefinitions.APIStepDefinition.iShouldGetAResponseCodeOf(APIStepDefinition.java:108)
+at ✽.I should get a response code of 200(file:///C:/Users/acer/Downloads/QumuQaTask/QumuQaTask/src/test/resources/features/API-Test.feature:37)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerTest@367ffa75]" started-at="2025-07-17T17:12:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T17:12:23 IST" duration-ms="2519" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["LOGIN - UNSUCCESSFUL by a user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [401] but found [400]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [401] but found [400]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1240)
+at org.testng.Assert.assertEquals(Assert.java:1274)
+at stepdefinitions.APIStepDefinition.iShouldGetAResponseCodeOf(APIStepDefinition.java:108)
+at ✽.I should get a response code of 400(file:///C:/Users/acer/Downloads/QumuQaTask/QumuQaTask/src/test/resources/features/API-Test.feature:43)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerTest@367ffa75]" started-at="2025-07-17T17:12:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T17:12:38 IST" duration-ms="14392" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Should see the list of users with DELAYED RESPONSE"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API test"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User IDs list is null expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User IDs list is null expected object to not be null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.assertNotNull(Assert.java:1319)
+at stepdefinitions.APIStepDefinition.iShouldSeeThatEveryUserHasAUniqueID(APIStepDefinition.java:101)
+at ✽.I should see that every user has a unique id(file:///C:/Users/acer/Downloads/QumuQaTask/QumuQaTask/src/test/resources/features/API-Test.feature:49)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerTest@367ffa75]" started-at="2025-07-17T17:12:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T17:12:40 IST" duration-ms="1994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sample"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Qumu  Sample Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerTest@367ffa75]" started-at="2025-07-17T17:12:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T17:12:54 IST" duration-ms="14418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check item total cost and tax"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checkout items in the basket"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.runnerTest@367ffa75]" started-at="2025-07-17T17:12:54 IST" name="tearDownClass" finished-at="2025-07-17T17:12:54 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.runnerTest -->
+    </test> <!-- Cucumber Tests -->
+  </suite> <!-- Cucumber Test Suite -->
+</testng-results>

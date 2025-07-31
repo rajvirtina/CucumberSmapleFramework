@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="55.334" tests="10" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\acer\.cache\selenium\chromedriver\win64\138.0.7204.157\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\acer\Downloads\QumuQaTask\QumuQaTask\target\test-classes;C:\Users\acer\Downloads\QumuQaTask\QumuQaTask\target\classes;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\acer\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\acer\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\acer\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\acer\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\acer\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\acer\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\acer\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\acer\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\acer\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\acer\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\acer\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\acer\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\acer\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\acer\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\acer\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\acer\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\acer\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\acer\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\acer\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\acer\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\acer\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\acer\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\acer\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\acer\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\acer\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\acer\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\acer\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\acer\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\acer\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\acer\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\acer\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\acer\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\acer\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\acer\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\acer\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\acer\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\acer\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\acer\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\acer\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\acer\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\acer\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\acer\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\acer\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\acer\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\acer\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\acer\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\acer\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\acer\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\acer\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\acer\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\acer\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\acer\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\acer\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\acer\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\acer\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\acer\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\acer\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\acer\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\acer\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\acer\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\acer\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\acer\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\acer\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\acer\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\acer\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\acer\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\acer\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\acer\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\acer\.m2\repository\org\apache\ant\ant\1.10.14\ant-1.10.14.jar;C:\Users\acer\.m2\repository\org\apache\ant\ant-launcher\1.10.14\ant-launcher-1.10.14.jar;C:\Users\acer\.m2\repository\org\json\json\20190722\json-20190722.jar;C:\Users\acer\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\acer\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\acer\AppData\Local\Temp\surefire2541527763428907208\surefirebooter-20250717092551354_3.jar C:\Users\acer\AppData\Local\Temp\surefire2541527763428907208 2025-07-17T09-25-51_248-jvmRun1 surefire-20250717092551354_1tmp surefire_0-20250717092551354_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\acer\Downloads\QumuQaTask\QumuQaTask\target\test-classes;C:\Users\acer\Downloads\QumuQaTask\QumuQaTask\target\classes;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\acer\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\acer\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\acer\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\acer\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\acer\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\acer\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\acer\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\acer\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\acer\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\acer\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\acer\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\acer\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\acer\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\acer\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\acer\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\acer\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\acer\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\acer\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\acer\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\acer\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\acer\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\acer\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\acer\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\acer\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\acer\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\acer\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\acer\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\acer\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\acer\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\acer\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\acer\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\acer\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\acer\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\acer\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\acer\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\acer\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\acer\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\acer\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\acer\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\acer\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\acer\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\acer\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\acer\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\acer\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\acer\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\acer\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\acer\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\acer\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\acer\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\acer\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\acer\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\acer\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\acer\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\acer\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\acer\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\acer\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\acer\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\acer\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\acer\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\acer\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\acer\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\acer\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\acer\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\acer\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\acer\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\acer\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\acer\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\acer\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\acer\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\acer\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\acer\.m2\repository\org\apache\ant\ant\1.10.14\ant-1.10.14.jar;C:\Users\acer\.m2\repository\org\apache\ant\ant-launcher\1.10.14\ant-launcher-1.10.14.jar;C:\Users\acer\.m2\repository\org\json\json\20190722\json-20190722.jar;C:\Users\acer\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\acer"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Users\acer\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\acer\Downloads\QumuQaTask\QumuQaTask"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\acer\AppData\Local\Temp\surefire2541527763428907208\surefirebooter-20250717092551354_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+6-LTS"/>
+    <property name="user.name" value="acer"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.7+6"/>
+    <property name="localRepository" value="C:\Users\acer\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\acer\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="C:\Users\acer\Downloads\QumuQaTask\QumuQaTask"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\acer\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/acer/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916/jre/bin/server;C:/Users/acer/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916/jre/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\acer\AppData\Local\Microsoft\WindowsApps;;C:\Users\acer\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.7+6-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Should see LIST USERS of all existing users&quot;, &quot;API test&quot;](1)" classname="runner.runnerTest" time="4.053">
+    <failure message="API failed with status code: 401" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: API failed with status code: 401
+	at pages.APIPage.getAllUserIds(APIPage.java:41)
+	at stepdefinitions.APIStepDefinition.iGetTheListOfAllUsers(APIStepDefinition.java:41)
+	at ✽.I get the list of all users within every page(file:///C:/Users/acer/Downloads/QumuQaTask/QumuQaTask/src/test/resources/features/API-Test.feature:6)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Should see LIST USERS of all existing users               # src/test/resources/features/API-Test.feature:4
+  Given I get the default list of users for on 1st page             # stepdefinitions.APIStepDefinition.iGetTheDefaultListofusers()
+Page: 1
+Status Code: 401
+Response: {"error":"Missing API key.","how_to_get_one":"https://reqres.in/signup"}
+  When I get the list of all users within every page                # stepdefinitions.APIStepDefinition.iGetTheListOfAllUsers()
+      java.lang.RuntimeException: API failed with status code: 401
+	at pages.APIPage.getAllUserIds(APIPage.java:41)
+	at stepdefinitions.APIStepDefinition.iGetTheListOfAllUsers(APIStepDefinition.java:41)
+	at ✽.I get the list of all users within every page(file:///C:/Users/acer/Downloads/QumuQaTask/QumuQaTask/src/test/resources/features/API-Test.feature:6)
+
+  Then I should see total users count equals the number of user ids # stepdefinitions.APIStepDefinition.iShouldMatchTotalCount()
+
+    Embedding Should see LIST USERS of all existing users [image/png 6406 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting ChromeDriver 138.0.7204.157 (e533e98b1267baa1f1c46d666b120e64e5146aa9-refs/branch-heads/7204@{#2046}) on port 29336
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 29336.
+Jul 17, 2025 9:25:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Should see SINGLE USER data&quot;, &quot;API test&quot;](2)" classname="runner.runnerTest" time="1.434">
+    <failure message="Expected 200 OK but got: 401 expected [200] but found [401]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected 200 OK but got: 401 expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at stepdefinitions.APIStepDefinition.IShouldSeeFollowingUserData(APIStepDefinition.java:58)
+	at ✽.I should see the following user data(file:///C:/Users/acer/Downloads/QumuQaTask/QumuQaTask/src/test/resources/features/API-Test.feature:12)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Should see SINGLE USER data       # src/test/resources/features/API-Test.feature:10
+  Given I make a search for user 3          # stepdefinitions.APIStepDefinition.iMakeASearchForUser(int)
+  Then I should see the following user data # stepdefinitions.APIStepDefinition.IShouldSeeFollowingUserData(io.cucumber.datatable.DataTable)
+    | first_name | email               |
+    | Emma       | emma.wong@reqres.in |
+      java.lang.AssertionError: Expected 200 OK but got: 401 expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at stepdefinitions.APIStepDefinition.IShouldSeeFollowingUserData(APIStepDefinition.java:58)
+	at ✽.I should see the following user data(file:///C:/Users/acer/Downloads/QumuQaTask/QumuQaTask/src/test/resources/features/API-Test.feature:12)
+
+
+    Embedding Should see SINGLE USER data [image/png 6406 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 138.0.7204.157 (e533e98b1267baa1f1c46d666b120e64e5146aa9-refs/branch-heads/7204@{#2046}) on port 57750
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 57750.
+Jul 17, 2025 9:25:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Should see SINGLE USER NOT FOUND error code&quot;, &quot;API test&quot;](3)" classname="runner.runnerTest" time="1.17">
+    <system-out><![CDATA[
+Scenario: Should see SINGLE USER NOT FOUND error code # src/test/resources/features/API-Test.feature:17
+  Given I make a search for user 55                   # stepdefinitions.APIStepDefinition.iMakeASearchForUser(int)
+  Then I receive error code 401 in response           # stepdefinitions.APIStepDefinition.iReceiveErrorCodeInResponse(int)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 138.0.7204.157 (e533e98b1267baa1f1c46d666b120e64e5146aa9-refs/branch-heads/7204@{#2046}) on port 14530
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 14530.
+Jul 17, 2025 9:25:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;CREATE a user&quot;, &quot;API test&quot;](4)" classname="runner.runnerTest" time="1.575">
+    <system-out><![CDATA[
+Scenario Outline: CREATE a user                      # src/test/resources/features/API-Test.feature:29
+  Given I create a user with following Peter Manager # stepdefinitions.APIStepDefinition.iCreateUserWithFollowing(java.lang.String,java.lang.String)
+  Then response should contain the following data    # stepdefinitions.APIStepDefinition.iReceiveErrorCodeInResponse(io.cucumber.datatable.DataTable)
+    | name | job | id | createdAt |
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 138.0.7204.157 (e533e98b1267baa1f1c46d666b120e64e5146aa9-refs/branch-heads/7204@{#2046}) on port 60769
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 60769.
+Jul 17, 2025 9:25:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;CREATE a user&quot;, &quot;API test&quot;](5)" classname="runner.runnerTest" time="1.486">
+    <system-out><![CDATA[
+Scenario Outline: CREATE a user                   # src/test/resources/features/API-Test.feature:30
+  Given I create a user with following Liza Sales # stepdefinitions.APIStepDefinition.iCreateUserWithFollowing(java.lang.String,java.lang.String)
+  Then response should contain the following data # stepdefinitions.APIStepDefinition.iReceiveErrorCodeInResponse(io.cucumber.datatable.DataTable)
+    | name | job | id | createdAt |
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 138.0.7204.157 (e533e98b1267baa1f1c46d666b120e64e5146aa9-refs/branch-heads/7204@{#2046}) on port 57028
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 57028.
+Jul 17, 2025 9:26:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;LOGIN - SUCCESSFUL by a user&quot;, &quot;API test&quot;](6)" classname="runner.runnerTest" time="1.503">
+    <failure message="expected [401] but found [200]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [401] but found [200]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at stepdefinitions.APIStepDefinition.iShouldGetAResponseCodeOf(APIStepDefinition.java:108)
+	at ✽.I should get a response code of 200(file:///C:/Users/acer/Downloads/QumuQaTask/QumuQaTask/src/test/resources/features/API-Test.feature:37)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: LOGIN - SUCCESSFUL by a user                 # src/test/resources/features/API-Test.feature:33
+  Given I login unsuccessfully with the following data # stepdefinitions.APIStepDefinition.iLoginUnsuccessfullyWithFollowingData(io.cucumber.datatable.DataTable)
+    | Email              | Password   |
+    | eve.holt@reqres.in | cityslicka |
+  Then I should get a response code of 200             # stepdefinitions.APIStepDefinition.iShouldGetAResponseCodeOf(int)
+      java.lang.AssertionError: expected [401] but found [200]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at stepdefinitions.APIStepDefinition.iShouldGetAResponseCodeOf(APIStepDefinition.java:108)
+	at ✽.I should get a response code of 200(file:///C:/Users/acer/Downloads/QumuQaTask/QumuQaTask/src/test/resources/features/API-Test.feature:37)
+
+
+    Embedding LOGIN - SUCCESSFUL by a user [image/png 6406 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 138.0.7204.157 (e533e98b1267baa1f1c46d666b120e64e5146aa9-refs/branch-heads/7204@{#2046}) on port 28038
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 28038.
+Jul 17, 2025 9:26:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;LOGIN - UNSUCCESSFUL by a user&quot;, &quot;API test&quot;](7)" classname="runner.runnerTest" time="1.653">
+    <failure message="expected [401] but found [400]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [401] but found [400]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at stepdefinitions.APIStepDefinition.iShouldGetAResponseCodeOf(APIStepDefinition.java:108)
+	at ✽.I should get a response code of 400(file:///C:/Users/acer/Downloads/QumuQaTask/QumuQaTask/src/test/resources/features/API-Test.feature:43)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: LOGIN - UNSUCCESSFUL by a user               # src/test/resources/features/API-Test.feature:39
+  Given I login unsuccessfully with the following data # stepdefinitions.APIStepDefinition.iLoginUnsuccessfullyWithFollowingData(io.cucumber.datatable.DataTable)
+    | Email              | Password |
+    | eve.holt@reqres.in | [empty]  |
+  Then I should get a response code of 400             # stepdefinitions.APIStepDefinition.iShouldGetAResponseCodeOf(int)
+      java.lang.AssertionError: expected [401] but found [400]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at stepdefinitions.APIStepDefinition.iShouldGetAResponseCodeOf(APIStepDefinition.java:108)
+	at ✽.I should get a response code of 400(file:///C:/Users/acer/Downloads/QumuQaTask/QumuQaTask/src/test/resources/features/API-Test.feature:43)
+
+  And I should see the following response message:     # stepdefinitions.APIStepDefinition.iShouldSeeTheFollowingResponseMessage(io.cucumber.datatable.DataTable)
+    | "error": "Missing password" |
+
+    Embedding LOGIN - UNSUCCESSFUL by a user [image/png 6406 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 138.0.7204.157 (e533e98b1267baa1f1c46d666b120e64e5146aa9-refs/branch-heads/7204@{#2046}) on port 24521
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 24521.
+Jul 17, 2025 9:26:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Should see the list of users with DELAYED RESPONSE&quot;, &quot;API test&quot;](8)" classname="runner.runnerTest" time="13.66">
+    <failure message="User IDs list is null expected object to not be null" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: User IDs list is null expected object to not be null
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.assertNotNull(Assert.java:1319)
+	at stepdefinitions.APIStepDefinition.iShouldSeeThatEveryUserHasAUniqueID(APIStepDefinition.java:101)
+	at ✽.I should see that every user has a unique id(file:///C:/Users/acer/Downloads/QumuQaTask/QumuQaTask/src/test/resources/features/API-Test.feature:49)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Should see the list of users with DELAYED RESPONSE # src/test/resources/features/API-Test.feature:47
+  Given I wait for the user list to load                     # stepdefinitions.APIStepDefinition.iWaitForUserListToLoad()
+  Then I should see that every user has a unique id          # stepdefinitions.APIStepDefinition.iShouldSeeThatEveryUserHasAUniqueID()
+      java.lang.AssertionError: User IDs list is null expected object to not be null
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.assertNotNull(Assert.java:1319)
+	at stepdefinitions.APIStepDefinition.iShouldSeeThatEveryUserHasAUniqueID(APIStepDefinition.java:101)
+	at ✽.I should see that every user has a unique id(file:///C:/Users/acer/Downloads/QumuQaTask/QumuQaTask/src/test/resources/features/API-Test.feature:49)
+
+
+    Embedding Should see the list of users with DELAYED RESPONSE [image/png 6406 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 138.0.7204.157 (e533e98b1267baa1f1c46d666b120e64e5146aa9-refs/branch-heads/7204@{#2046}) on port 23866
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 23866.
+Jul 17, 2025 9:26:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sample&quot;, &quot;Qumu  Sample Test&quot;](9)" classname="runner.runnerTest" time="1.752">
+    <system-out><![CDATA[
+Scenario: Sample              # src/test/resources/features/SampleTest.feature:3
+Navigated to home page: https://www.saucedemo.com/
+  Given I am on the home page # stepdefinitions.UIStepDefination.i_am_on_the_home_page()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 138.0.7204.157 (e533e98b1267baa1f1c46d666b120e64e5146aa9-refs/branch-heads/7204@{#2046}) on port 31232
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 31232.
+Jul 17, 2025 9:26:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check item total cost and tax&quot;, &quot;Checkout items in the basket&quot;](10)" classname="runner.runnerTest" time="26.077">
+    <failure message="expected [1] but found [4]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [1] but found [4]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at stepdefinitions.UIStepDefination.i_should_see_items_added_to_the_shopping_cart(UIStepDefination.java:70)
+	at ✽.I  should see 4 items added to the shopping cart(file:///C:/Users/acer/Downloads/QumuQaTask/QumuQaTask/src/test/resources/features/UI-Test.feature:14)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Check item total cost and tax                           # src/test/resources/features/UI-Test.feature:4
+Navigated to home page: https://www.saucedemo.com/
+  Given I am on the home page                                     # stepdefinitions.UIStepDefination.i_am_on_the_home_page()
+  And I login in with the following details                       # stepdefinitions.UIStepDefination.i_login_in_with_the_following_details(io.cucumber.datatable.DataTable)
+    | userName      | Password     |
+    | standard_user | secret_sauce |
+  And I add the following items to the basket                     # stepdefinitions.UIStepDefination.i_add_the_following_items_to_the_basket(io.cucumber.datatable.DataTable)
+    | Sauce Labs Backpack      |
+    | Sauce Labs Fleece Jacket |
+    | Sauce Labs Bolt T-Shirt  |
+    | Sauce Labs Onesie        |
+  And I  should see 4 items added to the shopping cart            # stepdefinitions.UIStepDefination.i_should_see_items_added_to_the_shopping_cart(int)
+      java.lang.AssertionError: expected [1] but found [4]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at stepdefinitions.UIStepDefination.i_should_see_items_added_to_the_shopping_cart(UIStepDefination.java:70)
+	at ✽.I  should see 4 items added to the shopping cart(file:///C:/Users/acer/Downloads/QumuQaTask/QumuQaTask/src/test/resources/features/UI-Test.feature:14)
+
+  And I click on the shopping cart                                # stepdefinitions.UIStepDefination.i_click_on_the_shopping_cart()
+  And I verify that the QTY count for each item should be 1       # stepdefinitions.UIStepDefination.i_verify_that_the_qty_count_for_each_item_should_be(int)
+  And I remove the following item:                                # stepdefinitions.UIStepDefination.i_remove_the_following_item(io.cucumber.datatable.DataTable)
+    | Sauce Labs Fleece Jacket |
+  And I  should see 3 items added to the shopping cart            # stepdefinitions.UIStepDefination.i_should_see_items_added_to_the_shopping_cart(int)
+  And I click on the CHECKOUT button                              # stepdefinitions.UIStepDefination.i_click_on_the_checkout_button()
+  And I type "FirstName" for First Name                           # stepdefinitions.UIStepDefination.i_type_for_first_name(java.lang.String)
+  And I type "LastName" for Last Name                             # stepdefinitions.UIStepDefination.i_type_for_last_name(java.lang.String)
+  And I type "EC1A 9JU" for ZIP/Postal Code                       # stepdefinitions.UIStepDefination.i_type_for_zip_postal_code(java.lang.String)
+  When I click on the CONTINUE button                             # stepdefinitions.UIStepDefination.i_click_on_the_continue_button()
+  Then Item total will be equal to the total of items on the list # stepdefinitions.UIStepDefination.item_total_will_be_equal_to_the_total_of_items_on_the_list()
+  And a Tax rate of 8 % is applied to the total                   # stepdefinitions.UIStepDefination.a_tax_rate_of_is_applied_to_the_total(java.lang.Integer)
+
+    Embedding Check item total cost and tax [image/png 382989 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 138.0.7204.157 (e533e98b1267baa1f1c46d666b120e64e5146aa9-refs/branch-heads/7204@{#2046}) on port 12911
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 12911.
+Jul 17, 2025 9:26:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
